@@ -87,17 +87,6 @@ p{
 
 }
 
-@media (max-width: 1150px)
-{
-    #title{
-        text-align: center;
-    }
-
-    .title-image{
-        position: static;
-        transform: rotate(0deg);
-    }
-}
 
 /*Features Section*/
 
@@ -176,6 +165,24 @@ p{
     font-family: ubuntu;
     font-weight: 400;
     color: #1a1c20;
+}
+@media (max-width: 1150px)
+{
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+
+     .price-text{
+    font-size: 1.5rem;
+}
+    }
+
+    testimonial-text{
+    font-size: 1.5rem;
 }
 
 /*Footer*/
